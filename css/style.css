@@ -25,3 +25,26 @@ p {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.navbar {
+    font-size: 25px;
+    background-color: #041E42;
+    border-bottom: #FFC72C solid 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar a:hover, .navbar a:active {
+    color: #041E42;
+    background-color: #FFC72C;
+    border-color: #041E42;
+}
+
+.navelement {
+    color: #FFC72C;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: #FFC72C solid;
+    border-right: #FFC72C solid;
+}
