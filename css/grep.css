@@ -1,0 +1,129 @@
+/*
+*     Author:          Shyauna Hood
+*     Date:            2023-06-27
+*     Last revised:    2023-06-27
+*     Assignment:      Lab 6
+*     Description:     Tables
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body, html {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    width: 100%;
+    font-size: large;
+}
+
+h1 {
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #041E42;
+    color: #FFC72C;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header, article {
+	width: 900px;
+	margin: auto;
+    height: 95px;
+	padding: 25px 0;
+}
+
+footer {
+	clear: both;
+	line-height: 2em;
+	color:  #041E42;
+    border: 1px solid;
+}
+
+h1, h2 {
+	text-align: center;
+	border-bottom: 2px solid  #041E42;
+}
+
+
+article {
+	box-sizing: border-box;
+	border: 1px solid  #041E42;
+	padding: 15px;
+}
+
+.cite {
+	display: block;
+	width: 400px;
+	float: center;
+    font-size: .8em;
+	font-style: italic;
+	margin: 10px 100px 20px 0;
+    color: #041E42
+}
+  #container {
+    max-width: 1200px;
+    min-height: 500px;
+    margin: auto;
+    padding: 0 10px;
+    margin-bottom: 75px;
+    margin: 0 auto;
+  }
+  
+  #left-pane {
+    margin-top: 40px;
+    padding: 10px;
+    float:left;
+    width: 45%;
+  }
+  
+  #right-pane {
+    margin-top: 40px;
+      padding: 10px;
+    float: right;
+    width: 45%;
+  }
+
+  table{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border:1px solid #041E42;
+    border-collapse: collapse;
+}
+td, th {
+    text-align: center;
+    border: 1px solid #041E42;
+    padding: 4px;
+  }
+
+.navbar {
+    font-size: 25px;
+    background-color: #041E42;
+    border-bottom: #FFC72C solid 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar a:hover, .navbar a:active {
+    color: #041E42;
+    background-color: #FFC72C;
+    border-color: #041E42;
+}
+
+.navelement {
+    color: #FFC72C;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: #FFC72C solid;
+    border-right: #FFC72C solid;
+}

@@ -7,31 +7,112 @@
 	<meta name="keywords" content="csci1210, project, final">
 	<title>Grep command</title>
 	<link rel="icon" href="images/favicon.png">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/grep.css">
 	
 	<!-- 
-		Author:						
+		Author:		Shyauna Hood				
 		Date:				2023-08-02
-		Last revised:		
+		Last revised:		2023-08-03
 		Assignment:			Final Project
-		Purpose:			
+		Purpose:			Short explanation of GREP
 	-->
 </head>
-<header>
-	<h1>Grep</h1>
-</header>
-<nav class="navbar">
-	<a href="/index.html" class="navelement">HOME</a>
-	<a href="/syllabus.html" class="navelement">SYLLABUS</a>
-	<a href="/mission.html" class="navelement">MISSION STATEMENT</a>
-	<a href="/resources.html" class="navelement">RESOURCES</a>
-	<a href="/resources/awk.html" class="navelement">AWK</a>
-	<a href="/resources/bash.html" class="navelement">BASH</a>
-	<a href="/resources/basic_commands.html" class="navelement">BASIC COMMANDS</a>
-	<a href="/resources/grep.html" class="navelement">GREP</a>
-	<a href="/resources/vim.html" class="navelement">VIM</a>
-	<a href="/resources/vm.html" class="navelement">VIRTUAL MACHINES</a>
-</nav>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aperiam dolor rem deserunt. Ullam aperiam iste voluptates id nisi unde cupiditate aspernatur quae debitis error ex maiores assumenda impedit nulla ad consequatur, corporis alias provident, facere veniam reiciendis? Impedit excepturi amet recusandae modi eius ut hic dolorem quo cupiditate mollitia.</p>
+    <h1>Grep</h1>
+	<nav class="navbar">
+		<a href="/index.html" class="navelement">HOME</a>
+		<a href="/syllabus.html" class="navelement">SYLLABUS</a>
+		<a href="/mission.html" class="navelement">MISSION STATEMENT</a>
+		<a href="/resources.html" class="navelement">RESOURCES</a>
+		<a href="/resources/awk.html" class="navelement">AWK</a>
+		<a href="/resources/bash.html" class="navelement">BASH</a>
+		<a href="/resources/basic_commands.html" class="navelement">BASIC COMMANDS</a>
+		<a href="/resources/grep.html" class="navelement">GREP</a>
+		<a href="/resources/vim.html" class="navelement">VIM</a>
+		<a href="/resources/vm.html" class="navelement">VIRTUAL MACHINES</a>
+	</nav>
+			</p>
+			<header>
+				<h1>A Brief Overview</h1>
+			</header>
+			<div id='container'>
+				<article>
+					<p>
+						Grep stands for global search for regular expression and print out. It is a function of PHP which prints lines matching a pattern and returns different variations based on command used. 
+						<br>
+					</p>
+				</article>
+				<div id='left-pane'>
+				  <h2>LINKS</h2>
+				  <p>
+					<br>
+					 More details on Grep Options
+					<span class="cite">
+						<a href="https://www.tutorialspoint.com/unix_commands/grep.htm" target="_blank">https://www.tutorialspoint.com/unix_commands/grep.htm</a>
+					</span>	
+					Practice and Parameter Values
+					<span class="cite">
+						<a href="https://www.w3schools.com/php//func_regex_preg_grep.asp" target="_blank">https://www.w3schools.com/php//func_regex_preg_grep.asp</a>
+					</span>	
+					Examples
+					<span class="cite">
+						<a href="https://www.geeksforgeeks.org/grep-command-in-unixlinux/" target="_blank">https://www.geeksforgeeks.org/grep-command-in-unixlinux/</a>
+					</span>	
+				  </p>
+				</div>
+				<div id='right-pane'>
+				  <h2>Grep Options</h2>
+				  <p>
+					  <table>
+						<tr>
+							<th>Options</th><th>Description</th>
+						</tr>
+						<tr>
+							<td>-c </td><td>This prints only a count of the lines that match a pattern</td>
+						</tr>
+						<tr>
+							<td>-i </td><td>Ignores, case for matching</td>
+						</tr>
+						<tr>
+							<td>-l </td><td>Displays list of a filenames only.</td>
+						</tr>
+						<tr>
+							<td>-n </td><td>Display the matched lines and their line numbers.</td>
+						</tr>
+						<tr>
+							<td>-v </td><td>This prints out all the lines that do not matches the pattern</td>
+						</tr>
+						<tr>
+							<td>-e exp</td><td>Specifies expression with this option. Can use multiple times.</td>
+						</tr>
+						<tr>
+							<td>-f file</td><td>Takes patterns from file, one per line.</td>
+						</tr>
+						<tr>
+							<td>-E </td><td>Treats pattern as an extended regular expression (ERE)</td>
+						</tr>
+						<tr>
+							<td>-w </td><td>Match whole word</td>
+						</tr>
+						<tr>
+							<td>-o </td><td>Print only the matched parts of a matching line,
+								with each such part on a separate output line.</td>
+						</tr>
+						<tr>
+							<td>-A n </td><td>Prints searched line and n lines after the result./td>
+						</tr>
+						<tr>
+							<td>-B n </td><td>Prints searched line and n line before the result.</td>
+						</tr>
+						<tr>
+							<td>-C n </td><td>Prints searched line and n lines after before the result.</td>
+						</tr>
+					  </table>
+				  </p>
+				</div>
+			  </div>
+			<footer>
+				Copyrigt &copy; 2023 Shyauna Hood, all rights reserved.
+			</footer>
+			<script src="/js/w3c.js"></script>
 </body>
