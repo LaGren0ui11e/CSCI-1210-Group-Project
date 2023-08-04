@@ -14,16 +14,46 @@ body, html {
     font-size: large;
 }
 
-h1 {
-    padding-left: 20px;
+h1, h2 {
     background-color: #041E42;
     color: #FFC72C;
-    font-size: 100px; 
-    text-align: center;
-    position: relative; 
-    left: 250px; 
-    bottom: -250px; 
-    display: inline-block;
+    white-space: nowrap;
+}
+
+h1 {
+    font-size: 95px;
+}
+
+h2 {
+    font-size: 65px;
+}
+
+.center{
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#button-left {
+    position: fixed;
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#button-center {
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#button-right {
+    position: fixed;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%); 
 }
 
 a {
