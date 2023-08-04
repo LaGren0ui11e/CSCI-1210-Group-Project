@@ -18,42 +18,16 @@ h1, h2 {
     background-color: #041E42;
     color: #FFC72C;
     white-space: nowrap;
+    text-align: center;
 }
 
 h1 {
+    padding-top: 200px;
     font-size: 95px;
 }
 
 h2 {
     font-size: 65px;
-}
-
-.center{
-    position: fixed;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#button-left {
-    position: fixed;
-    top: 75%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-}
-
-#button-center {
-    position: fixed;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#button-right {
-    position: fixed;
-    top: 75%;
-    left: 75%;
-    transform: translate(-50%, -50%); 
 }
 
 a {
@@ -64,6 +38,12 @@ a {
     padding: 10px;
     color: #FFC72C;
     text-decoration: none;
+}
+
+nav {
+    padding-top: 160px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav a:hover, nav a:active, .current {
