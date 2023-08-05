@@ -41,6 +41,18 @@ td, th {
     padding: 4px;
 }
 
+.post {
+    width: 820px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+#mission {
+    position: relative;
+    top: 275px;
+    background-color: white;
+}
+
 .navbar {
     font-size: 25px;
     background-color: #041E42;
