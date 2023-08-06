@@ -1,0 +1,75 @@
+/*
+    CSS 
+    Author:         Kevin Davis
+    Date:           2023-08-06
+    Assignment:     Phase 3
+    Description:    Design
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    position: relative;
+    background: rgba(240,240,240,.9);
+    top: 100px;
+    max-width: 800px;
+    margin: auto;
+    font-size: 1em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    background: #041E42;
+    color: #eee;
+    padding: 10px 0;
+    position: absolute;
+    top: -140px;
+    left: 0;
+    width: 100%;
+}
+
+p {
+    width: 700px;
+    margin: 20px 50px;
+    padding-left: 15px;
+    font-size: 1.4rem;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: #041E42;
+}
+
+.navbar{
+    font-size: 25px;
+    background-color: #041E42;
+    border-bottom: #FFC72C solid 5px;
+    padding: 10px;
+    margin-bottom: 10px; 
+}
+
+.navbar a:hover, .navbar a:active{
+    color: #041e42;
+    background-color: #FFC72C;
+    border-color: #041E42;
+}
+
+.navelement {
+    color: #FFC72C;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: #FFC72C solid;
+    border-right: #FFC72C solid;
+}
+
+ul{
+
+    border-left: 4px double black; 
+    padding: 100px;
+}
+li{
+    padding-bottom: 10px;
+}
