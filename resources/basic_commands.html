@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="author" content=""> 
+	<meta name="author" content="Matt Williams"> 
 	<meta name="description" content="Final Project">
 	<meta name="keywords" content="csci1210, project, final">
 	<title>Basic Commands</title>
@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="../css/style.css">
 	
 	<!-- 
-		Author:						
-		Date:				2023-08-02
-		Last revised:		
+		Author:			    Matt Williams			
+		Date:				    2023-08-06
+		Last revised:		2023-08-06
 		Assignment:			Final Project
 		Purpose:			
 	-->
@@ -27,5 +27,99 @@
 	<a href="/resources.html" class="navelement">RESOURCES</a>
 </nav>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit labore nostrum, incidunt facilis tempora modi vel deleniti ipsa aliquid quas dicta maiores nesciunt, eveniet, quia id rem repellendus. Doloremque dolorum dolorem magnam! Sed officia, libero harum mollitia ipsam sapiente voluptate? Debitis quas est officia a iste dicta exercitationem nostrum velit.</p>
+  <style>
+    h2,table,.row,.navbar {
+      margin:auto;
+      text-align:center;
+    }
+    h2 {
+      padding:0;
+    }
+    table {
+      width:1000px;
+      color:#041E42;
+      border-style:solid;
+      border-color:#FFC72C;
+      border: 10px;
+      background-color:#FFC72C;
+    }
+    .row {
+      width:1000px;
+      margin-top:50px;
+      margin-bottom:50px;
+    }
+    li {
+      list-style-position:inside;
+      text-align:left;
+      padding-left:22px;
+      text-indent:-22px;
+    }
+    #first_row {
+      background-color:#FFC72C;
+      color:#041E42;
+      border-radius:40px;
+    }
+    a:link {
+      color:#FFC72C;
+    }
+    a:visited,a:hover {
+      color:white;
+    }
+    body {
+      background-color:#041E42;
+    }
+  </style>
+  <div class="container">
+    <div class="row" id="first_row">
+      <h2>The Command-Line Interface &#40;CLI&#41;</h2><br>
+      <p>
+        The CLI, often referred to as a terminal, shell, or console allows you to interact with your computer through a text based interface. This is very different from the graphical user interface &#40;GUI&#41; that you might be used to when using your own PC. The CLI provides the opportunity to complete certain tasks much faster than you would be able to using a traditional GUI. The table below shows a list of some of the basic commands you might find useful as you adjust to using the CLI. 
+      </p>
+    </div>
+    <div class="row">
+      <h2 style="color:#FFC72C">CLI Commands</h2>
+      <p style="color:#FFC72C">
+        Information was pulled from <a href="https://www.hostinger.com/tutorials/linux-commands">hostinger.com</a>.<br>
+        The following commands are case-sensative.
+      </p>
+      <table>
+        <tr>
+          <th>Command</th><th>Short for...</th><th>Effect</th><th>Examples</th>
+        </tr>
+        <tr>
+          <td>sudo</td><td>Superuser do</td><td>Allows you to perform tasks that require administer or root permissions.</td><td><ul><li>sudo rmdir -p mygrades/bad-grades</li><li>sudo rmdir -p game-of-thrones/season-8</li></ul></td>
+        </tr>
+        <tr>
+          <td>pwd</td><td>Print Working Directory</td><td>Displays the path to your current working directory</td><td><ul><li>pwd</li><li>pwd -L &#40;Prints enviroment variable content, including links&#41;</li><li>pwd -P &#40;Prints the actual path of the current directory&#41;</li></ul></td>
+        </tr>
+        <tr>
+          <td>cd</td><td>Change Directory</td><td>Allows you to navigate the file structure. You can put in a full path or a specific directory in your current working directory.</td><td><ul><li>cd documents/plans/secrect-plans/</li><li>cd life-goals/make-it-rain</li></ul></td>
+        </tr>
+        <tr>
+          <td>ls</td><td>List</td><td>Shows the content of the current working directory. It can also be followed by a path to list the contents of a specific directory.</td><td><ul><li>ls</li><li>ls area-51/aliens</li></ul></td>
+        </tr>
+        <tr>
+          <td>cat</td><td>Concatenate</td><td>Lists, combines, and writes file content to the standard output</td><td><ul><li>cat santas-naughty-list.txt</li><li>cat Bill-Gates-Fortune.txt My-Fortune.txt > genies-todo-list.txt</li></ul></td>
+        </tr>
+        <tr>
+          <td>cp</td><td>Copy</td><td>Copies files or directories and their content.</td><td><ul><li>cp document</li><li>cp folder</li></ul></td>
+        </tr>
+        <tr>
+          <td>mv</td><td>Move</td><td>Moves or renames a file or directory.</td><td><ul><li>mv get-rich-quick.txt home/trash</li></ul></td>
+        </tr>
+        <tr>
+          <td>mkdir</td><td>Make Directory</td><td>Creates a new directory.</td><td><ul><li>mkdir labs/lab10</li><li> mkdir cs2210/hw</li></ul></td>
+        </tr>
+        <tr>
+          <td>rmdir</td><td>Remove Directory</td><td>Deletes a directory.</td><td><ul><li>sudo rmdir my-jokes</li></ul></td>
+        </tr>
+        <tr>
+          <td>rm</td><td>Remove</td><td>Removes files in a directory.</td><td><ul><li>rm my-wallet/money</li><li>rm broccoli</li></ul></td>
+        </tr>
+        <tr>
+          <td>grep</td><td>Global Regular Expression Print</td><td>Searches the text in a given directory for a key word.</td><td><ul><li>grep meaning life.txt</li><li>grep money wallet.txt</li></ul></td>
+        </tr>   
+      </table>
+    </div>
+  </div>
 </body>
