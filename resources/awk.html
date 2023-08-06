@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="author" content=""> 
+	<meta name="author" content="Shane Johns"> 
 	<meta name="description" content="Final Project">
 	<meta name="keywords" content="csci1210, project, final">
 	<title>Awk Command</title>
@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="../css/style.css">
 	
 	<!-- 
-		Author:						
+		Author:				Shane Johns		
 		Date:				2023-08-02
-		Last revised:		
+		Last revised:		2023-08-06
 		Assignment:			Final Project
-		Purpose:			
+		Purpose:			Create a website
 	-->
 </head>
 <header>
@@ -27,5 +27,38 @@
 	<a href="/resources.html" class="navelement">RESOURCES</a>
 </nav>
 <body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla cumque sapiente laudantium rerum praesentium, obcaecati nisi odio, deleniti labore reiciendis saepe dolorum. Cum dignissimos corporis cupiditate repellendus pariatur tempora laborum incidunt consequuntur! Nemo, quae omnis voluptate doloribus, unde odio id modi molestiae sequi ex ea beatae architecto sint aliquam iusto!</p>
+	<div>
+    	<p>
+			<img class="floatLeft" src="/images/awk.png" alt="Awk Text Language Logo">
+			from the <a href="https://www.gnu.org/software/gawk/manual/gawk" target="_blank">AWK user guide</a>:
+			The basic function of awk is to search files for lines (or other units of text) that contain certain patterns. When a line matches one of the patterns, awk performs specified actions on that line. awk continues to process input lines in this way until it reaches the end of the input files.
+		</p>
+		<br><br><br>
+		<h1 style="border-bottom: solid #FFC72C 5px; border-top: solid #FFC72C 5px;">The Structure of AWK</h1>
+		<p>
+			<article class="center">
+			<img class="structure" src="/images/awkstructure.png" alt="An image defigning AWK's structure as pattern {action}">
+			</article>
+		</p>
+		<br>
+		<h1 style="border-bottom: solid #FFC72C 5px; border-top: solid #FFC72C 5px;">Example</h1>
+		<p>
+			<article class="coding">
+				<p>
+					John,90
+					Alice,85
+					Bob,78
+					Eve,92
+					<br>
+					awk -F ',' 'BEGIN {sum = 0; count = 0} {sum += $2; count++} END {avg = sum / count; print "Average: " avg}' data.csv
+					<br>
+				</p>
+				<p>result</p>
+				<p>
+					Average: 86.25
+				</p>
+			</article>
+			<img src="/images/pengu.png" alt="A decorative photo of a penguin sitting on an office desk">
+		</p>
+	</div>
 </body>
