@@ -101,6 +101,7 @@ td, th {
     border-bottom: #FFC72C solid 5px;
     padding: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .navbar a:hover, .navbar a:active {
@@ -110,7 +111,7 @@ td, th {
 }
 
 .navelement {
-    color: #FFC72C;
+    color: white;
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
